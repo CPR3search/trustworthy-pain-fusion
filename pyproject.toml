@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trustworthy-pain-fusion"
+version = "1.0.0"
+description = "Trustworthy multimodal fusion of physiological signals for pain decoding"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.12"
+
+[tool.setuptools.packages.find]
+include = ["trustworthy_pain_fusion*"]
