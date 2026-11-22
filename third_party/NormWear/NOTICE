@@ -1,0 +1,8 @@
+NormWear, https://github.com/Mobile-Sensing-and-UbiComp-Laboratory/NormWear,
+is distributed by its authors under the Apache License 2.0 (see LICENSE in this
+folder). This copy keeps only the files used to compute frozen embeddings
+(main_model.py and modules/normwear.py, layers.py, pos_embed.py, patch_embed.py).
+Changes: the torchaudio import in main_model.py is optional (torchaudio has no
+CUDA 13.2 wheel and is not used to compute embeddings), the demonstration block at
+the end of main_model.py is removed, and an empty __init__.py makes the folder
+importable.
