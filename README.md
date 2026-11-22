@@ -94,4 +94,4 @@ The main building blocks are available as classes:
 | `NormWearEncoder` | `trustworthy_pain_fusion.methods.encoders` |
 | `ModalityDropout`, `SignalCorruptor` | `trustworthy_pain_fusion.experiments.partitions` |
 
-
+Results (summary metrics) of manuscript could be found in [here](https://drive.google.com/file/d/1VQN9GFgerG4lAqOBe593KMSQqXI7_v-V/view?usp=sharing)
